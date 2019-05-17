@@ -113,10 +113,10 @@ function Header(){
               background-color: yellow;
             }
       `}</style>
-      <h1 className="nav">The Help Queue</h1>
+      <h1 className="nav">JOY</h1>
       <Link to="/"><button>Home</button></Link>
-      <Link to="/newticket"><button>Create Ticket</button></Link>
-      <Link to="/admin"><button>Admin</button></Link>
+      <Link to="/newticket"><button>-</button></Link>
+      <Link to="/admin"><button>--</button></Link>
     </div>
   );
 }
