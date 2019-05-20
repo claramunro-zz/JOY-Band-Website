@@ -26,18 +26,18 @@ function NewTicketForm(props){
         <input
           type='text'
           id='names'
-          placeholder='Pair Names'
+          placeholder='date'
           ref={(input) => {_names = input;}}/>
         <input
           type='text'
           id='location'
-          placeholder='Location'
+          placeholder='location'
           ref={(input) => {_location = input;}}/>
-        <textarea
+        <input
           id='issue'
-          placeholder='Describe your issue.'
-          ref={(textarea) => {_issue = textarea;}}/>
-        <button type='submit'>Help!</button>
+          placeholder='time'
+          ref={(input) => {_issue = input;}}/>
+        <button type='submit'>submit</button>
       </form>
     </div>
   );
