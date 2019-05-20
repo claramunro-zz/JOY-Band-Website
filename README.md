@@ -42,3 +42,5 @@ A website for the band JOY.
 </table>
 
 ## Initial Development
+
+deploying site, might start from scratch with create-react-app though this week because I can't figure out how to deploy
